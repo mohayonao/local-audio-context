@@ -1,0 +1,24 @@
+{
+  "name": "local-audio-context",
+  "description": "the my thought strongest template for es6 project",
+  "version": "0.1.0",
+  "authors": [
+    "nao yonamine <mohayonao@gmail.com>"
+  ],
+  "homepage": "https://github.com/mohayonao/local-audio-context",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src"
+  ],
+  "keywords": [
+    "webaudioapi"
+  ],
+  "license": "MIT",
+  "main": "build/local-audio-context.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mohayonao/local-audio-context.git"
+  }
+}

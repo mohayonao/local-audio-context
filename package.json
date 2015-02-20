@@ -1,0 +1,42 @@
+{
+  "name": "local-audio-context",
+  "description": "LocalAudioContext is able to dispose collectively of audio nodes",
+  "version": "0.1.0",
+  "author": "nao yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/local-audio-context/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "espower-loader": "^0.10.0",
+    "intelli-espower-loader": "^0.6.0",
+    "jshint": "^2.6.0",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.1.0",
+    "power-assert": "^0.10.2",
+    "sinon": "^1.12.2",
+    "web-audio-test-api": "^0.2.1"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "src"
+  ],
+  "homepage": "https://github.com/mohayonao/local-audio-context/",
+  "keywords": [
+    "webaudioapi"
+  ],
+  "licenses": "MIT",
+  "main": "src/local-audio-context.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/local-audio-context.git"
+  },
+  "scripts": {
+    "build": "browserify . --outfile build/local-audio-context.js",
+    "lint": "jshint src test --reporter node_modules/jshint-stylish/stylish.js",
+    "test": "mocha",
+    "travis": "npm run lint && npm run test"
+  }
+}
